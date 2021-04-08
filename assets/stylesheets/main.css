@@ -25,3 +25,10 @@
     --black4: rgba(3, 3, 3, .4);
     --black5: #555;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--black3);
+    background-color: var(--white1);
+    min-width: 250px;
+}
