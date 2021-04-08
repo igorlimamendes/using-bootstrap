@@ -1,2 +1,27 @@
 /* General style */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --white1: #F4F5F7;
+    --white2: #F4F5F6;
+    --white3: rgba(255,255,255,.9);
+    --gray1: #d9d9d9;
+    --gray2: rgba(255, 255, 255, .55);
+    --gray3: #807f84;
+    --gray4: #666;
+    --gray5: #e0e0e0;
+    --gray6: #d6d6d6;
+    --yellow1: #ffe400;
+    --blue1: #1da1f2;
+    --blue2: #0077b5;
+    --blue3: #405de6;
+    --blue4: #3b5998;
+    --red1: #F72210;
+    --red2: #f72310;
+    --red3: #F62210;
+    --black1: #000;
+    --black2: rgba(0, 0, 0, .55);
+    --black3: #333;
+    --black4: rgba(3, 3, 3, .4);
+    --black5: #555;
+}
