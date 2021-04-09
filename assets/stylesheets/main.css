@@ -24,6 +24,7 @@
     --black3: #333;
     --black4: rgba(3, 3, 3, .4);
     --black5: #555;
+    --black6: rgba(3, 3, 3, .5);
 }
 
 body {
