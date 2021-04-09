@@ -75,3 +75,10 @@ body {
             .footer__main__list--twitter:hover {color: var(--blue1);}
             .footer__main__list--instagram:hover {color: var(--blue3);}
             .footer__main__list--linkedin:hover {color: var(--blue2);}
+
+    .footer__secondary {
+        margin-top: 5px;
+    }
+        .footer__secondary a:hover {
+            color: var(--black1);
+        }
