@@ -50,3 +50,12 @@ body {
     .footer__main {
         border-bottom: 1px solid var(--gray1);
     }
+        .footer__main__newsweek--logo {
+            fill: var(--red1);
+            max-width: 100%;
+        }
+
+        .footer__main__newsweek--text {
+            font-size: 12px;
+            margin-top: 9px;
+        }
