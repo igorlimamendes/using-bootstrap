@@ -59,3 +59,19 @@ body {
             font-size: 12px;
             margin-top: 9px;
         }
+
+        .footer__main__list {
+            margin-top: 6px;
+        }
+            .footer__main__list li a {
+                color: var(--gray4);
+                margin-left: 10px;
+            }
+                .footer__main__list li:first-child a {
+                    margin-left: 0;
+                }
+
+            .footer__main__list--facebook:hover {color: var(--blue4);}
+            .footer__main__list--twitter:hover {color: var(--blue1);}
+            .footer__main__list--instagram:hover {color: var(--blue3);}
+            .footer__main__list--linkedin:hover {color: var(--blue2);}
