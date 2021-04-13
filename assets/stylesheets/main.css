@@ -52,6 +52,10 @@ body {
     padding: 0 0 0 15px;
     background-color: var(--red1);
 }
+    .header__main__buttons--account,
+    .header__main__buttons--subscribe {
+        display: none;
+    }
 
 /* Footer */
 .footer {
