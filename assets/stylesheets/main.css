@@ -65,6 +65,18 @@ body {
             cursor: pointer;
         }
 
+    .main__buttons__menu {
+        width: 30px;
+        height: 50px;
+        padding: 0 25px;
+    }
+        .main__buttons__menu div {
+            width: 18px;
+            height: 2px;
+            margin: 1.5px 0;
+            background-color: var(--gray2);
+        }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
