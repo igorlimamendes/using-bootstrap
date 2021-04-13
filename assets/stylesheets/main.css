@@ -41,6 +41,12 @@ body {
     margin: 0 auto;
 }
 
+/* Header */
+.header a:focus,
+.header button:focus {
+    outline: none;
+}
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
