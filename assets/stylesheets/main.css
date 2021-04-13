@@ -57,6 +57,14 @@ body {
         display: none;
     }
 
+    .header__main__buttons--account {
+        fill: var(--bs-white);
+        opacity: .75;
+    }
+        .header__main__buttons--account:hover {
+            cursor: pointer;
+        }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
