@@ -78,7 +78,42 @@ body {
         }
 
 @media screen and (min-width: 375px) {
+    .header__main__buttons--account {
+        display: block;
+        margin-right: 10px;
+    }
 
+    .header__main__buttons--login,
+    .header__main__buttons--subscribe {
+        padding: 4.5px 12px;
+        border: none;
+        border-radius: 24px;
+        font: bold 13px "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+    }
+
+    .header__main__buttons--subscribe {
+        background-color: var(--yellow1);
+        color: var(--black1);
+        display: flex;
+        align-items: center;
+    }
+        .header__main__buttons--subscribe::after {
+            margin-left: 5px;
+            content: "";
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            transform: rotate(45deg);
+            border-top-width: 2px;
+            border-top-style: solid;
+            border-right-width: 2px;
+            border-right-style: solid;
+        }
+
+    .main__buttons__menu {
+        padding: 0 25px;
+    }
 }
 
 @media screen and (min-width: 768px) {
