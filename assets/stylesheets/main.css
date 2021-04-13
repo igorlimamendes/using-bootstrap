@@ -147,7 +147,92 @@ body {
 }
 
 @media screen and (min-width: 992px) {
+    .header__main {
+        height: 108px;
+        padding: 20px 25px 32px 30px;
+    }
+        .header__main__text {
+            color: var(--bs-white);
+            font: 16px "Roboto Condensed", sans-serif;
+            margin-bottom: 3px;
+        }
 
+        .header__main__logo {
+            position: relative;
+            top: 4px;
+            margin-left: 100px;
+        }
+            .header__main__logo a svg {
+                width: 396px;
+                height: 60px;
+            }
+
+    .header__nav {
+        height: 85px;
+    }
+        .header__nav a:hover {
+            color: var(--red1);
+        }
+        
+        .header__nav__boxList1 {
+            background-color: var(--bs-white);
+            position: relative;
+            bottom: 13px;
+            padding-right: 82px;
+            height: 52px;
+        }
+            .header__nav__boxList1::after {
+                position: absolute;
+                top: 0;
+                right: 0;
+                content: "";
+                display: block;
+                width: 78px;
+                background-color: var(--red1);
+                border-left: 12px solid var(--bs-white);
+                border-top: 13px solid var(--red1);
+            }
+        
+            .nav__boxList1__list1 {
+                height: 100%;
+                width: 100%;
+            }
+                .nav__boxList1__list1 li {
+                    font: bold 18px "Roboto Condensed", sans-serif;
+                    border-right: 1px solid var(--gray1);
+                }
+                    .nav__boxList1__list1 li a {
+                        color: var(--black1);
+                    }
+        
+            .nav__boxList1__list2 {
+                height: 100%;
+                width: 86px;
+            }
+                .nav__boxList1__list2 li {
+                    color: var(--black2);
+                }
+        
+        .header__nav__boxList2 {
+            background-color: var(--bs-white);
+            border-top: 2px solid var(--white1);
+            border-bottom: 2px solid var(--white1);
+            overflow: hidden;
+            position: relative;
+            bottom: 13px;
+            height: 46px;
+        }
+            .nav__boxList2__list {
+                height: 100%;
+                text-transform: uppercase;
+            }
+                .nav__boxList2__list li {
+                    font: bold 15px "Roboto Condensed", sans-serif;
+                    margin-left: 30px;
+                }
+                    .nav__boxList2__list a {
+                        color: var(--gray3);
+                    }
 }
 
 /* Footer */
