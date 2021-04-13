@@ -47,6 +47,12 @@ body {
     outline: none;
 }
 
+.header__main {
+    height: 50px;
+    padding: 0 0 0 15px;
+    background-color: var(--red1);
+}
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
