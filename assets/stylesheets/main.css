@@ -117,7 +117,33 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+    .header__main__buttons--login,
+    .header__main__buttons--subscribe {
+        padding: 4.5px 15px;
+        font-size: 18px;
+    }
+    
+    .header__main__buttons--login {
+        background-color: var(--red2);
+        color: var(--bs-white);
+        margin-right: 12px;
+    }
 
+    .header__main__buttons--subscribe::after {
+        width: 8px;
+        height: 8px;
+    }
+
+    .main__buttons__menu {
+        width: 30px;
+        height: 50px;
+        padding: 0 35px 0 30px;
+    }
+        .main__buttons__menu div {
+            width: 30px;
+            height: 4px;
+            margin: 2px 0;
+        }
 }
 
 @media screen and (min-width: 992px) {
