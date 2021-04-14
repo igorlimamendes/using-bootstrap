@@ -305,6 +305,7 @@ body {
             padding-bottom: 12px;
         }
             .footer__main__newsweek--text {
+                position: relative;
                 top: 2px;
                 margin-left: 15px;
             }
