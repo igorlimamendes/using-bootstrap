@@ -558,6 +558,13 @@ body {
             }
 }
 
+/* Block 2 */
+.block2 {
+    margin-top: 19px;
+    padding-bottom: 25px;
+    background-color: var(--bs-white);
+}
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
