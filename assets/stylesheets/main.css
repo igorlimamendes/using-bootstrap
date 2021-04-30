@@ -370,6 +370,10 @@ body {
                 color: var(--black5);
             }
 
+    .section3__article__imageBox img {
+        width: 100%;
+    }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
