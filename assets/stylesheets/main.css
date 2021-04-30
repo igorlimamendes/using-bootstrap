@@ -255,6 +255,21 @@ body {
     background-color: var(--bs-white);
     border-bottom: 1px solid var(--gray5);
 }
+    .block1__section1__heading,
+    .block1__section2__heading,
+    .block1__section3__heading {
+        font: bold 16px "Roboto Condensed", sans-serif;
+        color: var(--black4);
+    }
+        .block1__section1__heading a,
+        .block1__section2__heading a {
+            color: var(--black4);
+        }
+
+        .block1__section3__heading a,
+        .block1__section3__heading a {
+            color: var(--black6);
+        }
 
 /* Footer */
 .footer {
