@@ -381,6 +381,56 @@ body {
             color: var(--black6);
         }
 
+/* The Debate */
+.block1__the-debate .block1__section2__article:first-of-type {
+    border-top: 4px solid var(--gray1);
+    padding: 10px 0;
+}
+
+.block1__the-debate .block1__section2__article:last-of-type {
+    border-bottom: 4px solid var(--gray1);
+    margin-bottom: 30px;
+    padding-bottom: 11px;
+}
+    .block1__the-debate .block1__section2__article:last-of-type header {
+        margin: 0 15px 0 0;
+    }
+
+.block1__section2__versus {
+    position: relative;
+}
+    .block1__section2__versus::before,
+    .block1__section2__versus::after {
+        content: "";
+        display: block;
+        background-color: var(--gray1);
+        height: 1px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    .block1__section2__versus::before {
+        top: calc(50% - 2px);
+    }
+
+    .block1__section2__versus::after {
+        top: 50%;
+    }
+
+    .block1__section2__versus div {
+        position: relative;
+        z-index: 1;
+        width: 32px;
+        height: 32px;
+        background-color: var(--black1);
+        color: var(--gray6);
+        border-radius: 50%;
+        font: bold 14px/32px "Roboto Condensed", sans-serif;
+        text-align: center;
+        margin: 0 auto 9px;
+    }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
