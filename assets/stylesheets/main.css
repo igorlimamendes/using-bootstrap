@@ -448,6 +448,16 @@ body {
     padding-bottom: 35px;
 }
 
+/* Culture & Travel */
+.block1__culture-travel .article__imageBox__category {
+    padding: 0 6px;
+    background-color: var(--gray7);
+}
+    .block1__culture-travel .article__imageBox__category a {
+        color: var(--black3);
+        font-size: 12px;
+    }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
