@@ -291,6 +291,11 @@ body {
                 text-decoration: underline var(--red1);
             }
 
+    .block1__top-story .section1__article__textBox h2,
+    .block1__featured-stories .section1__article__textBox h3 {
+        font-size: 21px;
+    }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
