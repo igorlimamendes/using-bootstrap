@@ -349,6 +349,10 @@ body {
             .section1__article__textBox p {
                 font-size: 12px;
             }
+    
+    .section2__article__imageBox img {
+        width: 63px;
+    }
 
 /* Footer */
 .footer {
