@@ -323,6 +323,33 @@ body {
                 margin-top: 7px;
             }
 
+    .block1__section1__article {
+        margin-bottom: 20px;
+    }
+        .section1__article__imageBox figure img {
+            width: 100%;
+            height: 56vw;
+        }
+
+        .article__imageBox__category {
+            background-color: var(--white3);
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            padding: 4px 16px;
+        }
+            .article__imageBox__category a {
+                color: var(--red3);
+                font: bold 17px "Roboto Condensed", sans-serif;
+            }
+            
+        .section1__article__textBox {
+            margin-top: -4px;
+        }
+            .section1__article__textBox p {
+                font-size: 12px;
+            }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
