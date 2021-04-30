@@ -271,6 +271,11 @@ body {
             color: var(--black6);
         }
 
+    .section1__article__imageBox,
+    .section3__article__imageBox {
+        position: relative;
+    }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
