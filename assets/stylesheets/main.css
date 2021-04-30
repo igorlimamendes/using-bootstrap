@@ -354,6 +354,22 @@ body {
         width: 63px;
     }
 
+    .section2__article__textBox {
+        margin: 4px 0 0 15px;
+    }
+        .section2__article__textBox h4 {
+            line-height: 1.25;
+            margin: 0 0 3px 0;
+        }
+
+        .section2__article__textBox p {
+            font-size: 14px;
+            margin: 0;
+        }
+            .section2__article__textBox p strong {
+                color: var(--black5);
+            }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
