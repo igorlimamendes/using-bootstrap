@@ -800,11 +800,21 @@ body {
                 }
 
 @media screen and (min-width: 768px) {
-
+    .block3 {
+        border-bottom: none;
+    }
+        .section__row__col1 article {
+            padding-right: 30px;
+        }
+            .section__row__col1 article h5 a {
+                font-size: 20px;
+            }
 }
 
 @media screen and (min-width: 992px) {
-
+    .block3 {
+        padding: 30px 30px 0;
+    }
 }
 
 /* Footer */
