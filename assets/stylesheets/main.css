@@ -246,6 +246,16 @@ body {
     width: 100%;
 }
 
+.block1__section1,
+.block1__section2,
+.block1__section3,
+.block1__newsletter {
+    margin-bottom: 17px;
+    padding: 19px 15px 0;
+    background-color: var(--bs-white);
+    border-bottom: 1px solid var(--gray5);
+}
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
