@@ -817,6 +817,13 @@ body {
     }
 }
 
+/* Block 4 */
+.block4 {
+    margin-top: 17px;
+    padding: 0 auto;
+    border-bottom: 1px solid var(--gray5);
+}
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
