@@ -845,6 +845,50 @@ body {
         color: var(--black1);
     }
 
+/* Subscribe */
+.block4__subscribe {
+    margin-bottom: 17px;
+    border-bottom: 1px solid var(--gray5);
+    padding: 19px 16px;
+}
+    .block4__subscribe__articleBox {
+        background-color: var(--white2);
+        padding: 20px;
+    }
+        .articleBox__article__figureBox {
+            position: relative;
+            min-width: 250px;
+            height: 240px;
+            display: inline-block;
+        }
+            .articleBox__article__figureBox figure {
+                width: 170px;
+                height: 228px;
+            }
+                .articleBox__article__figureBox figure:last-of-type {
+                    position: absolute;
+                    top: 13px;
+                    right: 0;
+                }
+    
+        .articleBox__article__header button {
+            position: relative;
+            font: bold 17px "Roboto Condensed", sans-serif;
+            cursor: pointer;
+            background-color: var(--red2);
+            color: var(--bs-white);
+            padding: 8px 11px;
+            border-radius: 3px;
+            border: none;
+        }
+            .articleBox__article__header button::after {
+                width: 6px;
+                height: 11px;
+                content: "›";
+                display: inline-block;
+                margin-left: 9px;
+            }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
