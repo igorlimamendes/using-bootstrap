@@ -823,6 +823,10 @@ body {
     padding: 0 auto;
     border-bottom: 1px solid var(--gray5);
 }
+    .block4 input:focus,
+    .block4 button:focus {
+        outline: none;
+    }
 
 /* Footer */
 .footer {
