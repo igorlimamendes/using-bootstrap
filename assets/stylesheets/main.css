@@ -374,6 +374,13 @@ body {
         width: 100%;
     }
 
+    .section3__article__textBox h4 {
+        font: bold 16px "Roboto Condensed", sans-serif;
+    }
+        .section3__article__textBox a {
+            color: var(--black6);
+        }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
