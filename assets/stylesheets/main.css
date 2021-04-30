@@ -753,6 +753,51 @@ body {
     padding: 0 17px;
     border-bottom: 1px solid var(--gray5);
 }
+    .block3__section {
+        border-top: 1px solid var(--gray1);
+        padding: 25px 0 20px;
+    }
+        .block3__section__heading a {
+            font: bold 22px "Roboto Condensed", sans-serif;
+            color: var(--red2);
+        }
+
+        .block3__section__row h5 {
+            line-height: 1;
+        }
+            .block3__section__row a {
+                text-decoration: none;
+                color: var(--black1);
+                font: bold 17px "Roboto Condensed", sans-serif;
+            }
+                .block3__section__row a:hover {
+                    text-decoration: underline;
+                }
+
+        .section__row__col1 article {
+            margin-bottom: 25px;
+        }
+            .section__row__col1 article:last-of-type {
+                margin: 0;
+            }
+
+        .section__row__col2 article {
+            display: flex;
+            border-bottom: 1px solid var(--gray1);
+            margin-bottom: 10px;
+        }
+            .section__row__col2 article:last-of-type {
+                border: none;
+            }
+
+            .section__row__col2 article figure {
+                padding-right: 13px;
+                margin: 0 0 10px 0;
+            }
+                .section__row__col2 article figure img {
+                    width: 110px;
+                    height: 110px;
+                }
 
 /* Footer */
 .footer {
