@@ -833,6 +833,18 @@ body {
         margin: 0;
     }
 
+    .block4__subscribe h5,
+    .block4__newsletter h5 {
+        font: bold 16px "Roboto Condensed", sans-serif;
+        color: var(--red2);
+    }
+
+    .block4__subscribe h6,
+    .block4__newsletter h6 {
+        font: bold 20px "Roboto Condensed", sans-serif;
+        color: var(--black1);
+    }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
