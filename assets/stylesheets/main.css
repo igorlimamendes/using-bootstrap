@@ -671,6 +671,31 @@ body {
             font: bold 16px "Roboto Condensed", sans-serif;
         }
 
+/* Editor's Pick */
+.block2__editors-pick__header {
+    border-bottom: 1px solid var(--gray1);
+}
+
+.editors-pick__article__imageBox div {
+    padding: 4.5px 16px;
+}
+    .editors-pick__article__imageBox div a {
+        font-size: 16px;
+    }
+
+.editors-pick__article__textBox h5 {
+    margin: 12px 0 6px 0;
+}
+    .editors-pick__article__textBox a {
+        color: var(--black1);
+        font: bold 19px "Roboto Condensed", sans-serif;
+        text-decoration: none;
+    }
+
+.editors-pick__article__textBox p {
+    font-size: 13px;
+}
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
