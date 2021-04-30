@@ -236,6 +236,11 @@ body {
                     }
 }
 
+/* Main */
+.main a:focus {
+    outline: none;
+}
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
