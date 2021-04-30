@@ -241,6 +241,11 @@ body {
     outline: none;
 }
 
+/* Block 1 */
+.block1__row2 {
+    width: 100%;
+}
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
