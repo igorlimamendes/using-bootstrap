@@ -431,6 +431,18 @@ body {
         margin: 0 auto 9px;
     }
 
+/* Opinion */
+.block1__opinion .block1__section2 {
+    margin: 0;
+    padding-bottom: 40px;
+    border: none;
+}
+    .block1__opinion .block1__section2__article:nth-of-type(n+2) {
+        border-top: 1px solid var(--gray1);
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
