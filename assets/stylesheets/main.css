@@ -828,6 +828,11 @@ body {
         outline: none;
     }
 
+    .block4 p {
+        font-size: 15px;
+        margin: 0;
+    }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
