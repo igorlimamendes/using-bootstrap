@@ -296,6 +296,33 @@ body {
         font-size: 21px;
     }
 
+    .block1__more-stories .block1__section2__article,
+    .block1__latest-stories .block1__section2__article {
+        border-top: 1px solid var(--gray1);
+        padding-top: 15px;
+    }
+        .block1__more-stories .block1__section2__article:nth-of-type(n+2),
+        .block1__latest-stories .block1__section2__article:nth-of-type(n+2) {
+            margin-top: 15px;
+        }
+    
+        .block1__more-stories .section2__article__imageBox img,
+        .block1__latest-stories .section2__article__imageBox img {
+            width: 95px;
+            height: 95px;
+            margin-right: 15px;
+        }
+    
+        .block1__more-stories .section2__article__textBox,
+        .block1__latest-stories .section2__article__textBox {
+            margin: 0;
+        }
+            .block1__more-stories .section2__article__textBox p,
+            .block1__latest-stories .section2__article__textBox p {
+                font-size: 12px;
+                margin-top: 7px;
+            }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
