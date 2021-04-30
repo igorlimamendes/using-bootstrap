@@ -276,6 +276,21 @@ body {
         position: relative;
     }
 
+    .section1__article__textBox h2,
+    .section1__article__textBox h3,
+    .section2__article__textBox h4 {
+        font: bold 17px "Roboto Condensed", sans-serif;
+    }
+        .section1__article__textBox a,
+        .section2__article__textBox a {
+            color: var(--black1);
+            text-decoration: none;
+        }
+            .section1__article__textBox a:hover,
+            .section2__article__textBox a:hover {
+                text-decoration: underline var(--red1);
+            }
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
