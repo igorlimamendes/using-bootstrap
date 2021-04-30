@@ -696,6 +696,14 @@ body {
     font-size: 13px;
 }
 
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
 /* Footer */
 .footer {
     background-color: var(--bs-white);
