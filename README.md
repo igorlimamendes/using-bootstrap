@@ -1,6 +1,6 @@
 # Using Bootstrap
 
-Clone of Newsweek homepage
+Clone of Newsweek homepage.
 
 ![Screenshot](assets/images/using-bootstrap.png)
 
